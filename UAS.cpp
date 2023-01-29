@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-//Compiler version g++ 6.3.0
 
 int main()
 {
@@ -73,7 +72,7 @@ int main()
       
       totalAkhirPesanan[x]=totalMakanan*jumlah;
       
-      cout<<"Apakah Anda Ingin Memesan Lagi ? : ";
+      cout<<"Apakah Anda Ingin Memesan Lagi ? : (Y/N)";
       cin>>yesNo;
       
       break;
@@ -109,7 +108,7 @@ int main()
          
        totalAkhirPesanan[x]=totalMakanan*jumlah;
       
-       cout<<"Apakah Anda Ingin Memesan Lagi ? : ";
+       cout<<"Apakah Anda Ingin Memesan Lagi ? : (Y/N)";
        cin>>yesNo;
        
        break;
@@ -137,7 +136,7 @@ int main()
        
        totalAkhirPesanan[x]=totalMakanan*jumlah;
        
-       cout<<"Apakah Anda Ingin Memesan Lagi ? : ";
+       cout<<"Apakah Anda Ingin Memesan Lagi ? : (Y/N)";
        cin>>yesNo;
        
        break;
